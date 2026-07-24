@@ -17,15 +17,10 @@ const About = () => {
 
             <div className="space-y-6 text-gray-400 text-lg leading-relaxed">
               <p>
-                I'm a dedicated frontend developer with a passion for creating
-                engaging and responsive web experiences. With expertise in modern
-                JavaScript frameworks and a keen eye for design, I bring ideas
-                to life through clean, efficient code.
+                I'm a passionate Full-Stack & Mobile Application Developer specializing in crafting end-to-end digital solutions. From intuitive mobile user experiences on iOS and Android to resilient back-end architectures, I transform complex ideas into production-ready applications.
               </p>
               <p>
-                Since starting my journey, I've delivered high-impact solutions for diverse
-                clients, always prioritizing user experience and technical excellence. My approach
-                blends creative problem-solving with rigorous engineering.
+                Whether building scalable REST/GraphQL APIs with Node.js and Express, designing web interfaces with React and Next.js, or engineering cross-platform mobile apps with React Native/Flutter, I focus on performance, security, and top-tier user experiences.
               </p>
             </div>
 

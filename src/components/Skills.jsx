@@ -2,19 +2,20 @@ import React from 'react';
 
 const Skills = () => {
   const mainSkills = [
-    { name: "Next.js", icon: "fa-bolt", color: "blue" },
-    { name: "React", icon: "fa-react", color: "cyan", fab: true },
+    { name: "React Native / Mobile", icon: "fa-mobile-alt", color: "blue" },
+    { name: "React / Next.js", icon: "fa-react", color: "cyan", fab: true },
+    { name: "Node.js & Express", icon: "fa-node-js", color: "green", fab: true },
+    { name: "MongoDB & SQL", icon: "fa-database", color: "green" },
     { name: "TypeScript", icon: "fa-code", color: "blue" },
-    { name: "Tailwind CSS", icon: "fa-wind", color: "cyan" },
-    { name: "Node.js", icon: "fa-node-js", color: "green", fab: true },
-    { name: "JavaScript", icon: "fa-js", color: "yellow", fab: true },
-    { name: "MongoDB", icon: "fa-database", color: "green" },
-    { name: "Git", icon: "fa-git-alt", color: "orange", fab: true }
+    { name: "Tailwind / Styling", icon: "fa-wind", color: "cyan" },
+    { name: "REST & GraphQL APIs", icon: "fa-[#0f172a]", iconClass: "fas fa-network-wired", color: "yellow" },
+    { name: "Git & CI/CD", icon: "fa-git-alt", color: "orange", fab: true }
   ];
 
   const tools = [
-    "Redux", "Express", "Vite", "Figma",
-    "VS Code", "Postman", "Responsive Design", "REST APIs"
+    "React Native", "Flutter", "Android / iOS Dev", "Redux Toolkit", 
+    "Express.js", "MongoDB", "PostgreSQL", "Next.js App Router", 
+    "Vite", "Figma UI/UX", "Postman / API Testing", "Docker & Cloud Deployments"
   ];
 
   return (
@@ -38,7 +39,7 @@ const Skills = () => {
               className="bg-white/5 backdrop-blur-xl border border-white/10 p-8 rounded-3xl text-center transition-all duration-500 hover:border-blue-500/50 hover:bg-white/10 group"
             >
               <div className={`w-16 h-16 rounded-2xl bg-blue-500/10 flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300`}>
-                <i className={`${skill.fab ? 'fab' : 'fas'} ${skill.icon} text-3xl transition-all ${skill.color === 'blue' ? 'text-blue-500' :
+                <i className={`${skill.iconClass ? skill.iconClass : (skill.fab ? 'fab ' : 'fas ') + skill.icon} text-3xl transition-all ${skill.color === 'blue' ? 'text-blue-500' :
                     skill.color === 'cyan' ? 'text-cyan-400' :
                       skill.color === 'green' ? 'text-green-500' :
                         skill.color === 'yellow' ? 'text-yellow-400' :

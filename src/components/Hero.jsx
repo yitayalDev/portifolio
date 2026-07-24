@@ -31,16 +31,16 @@ const Hero = () => {
               Available for New Projects
             </div>
 
-            <h1 className="text-6xl sm:text-7xl lg:text-8xl font-black text-white leading-tight">
-              Crafting <br />
+            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-black text-white leading-tight">
+              Full-Stack & <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-cyan-400 to-blue-500">
-                Digital Stories
-              </span>
+                Mobile Application
+              </span> <br />
+              Developer
             </h1>
 
             <p className="text-xl sm:text-2xl text-gray-400 leading-relaxed max-w-2xl font-medium">
-              Professional Frontend Developer specializing in building high-performance,
-              visually stunning web applications with Next.js and modern tech.
+              Architecting end-to-end web platforms and high-performance cross-platform mobile apps with React, React Native, Flutter, Node.js, Next.js, and modern cloud technologies.
             </p>
 
             {/* Buttons */}
